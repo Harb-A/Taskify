@@ -10,14 +10,14 @@
 
     <link rel="stylesheet" href="../Styles/login-dark.css" id="theme-link" />
   </head>
-  <select name="theme" id="theme" class="theme" onchange="">
+  <!-- <select name="theme" id="theme" class="theme" onchange="">
     <option value="1">Light mode</option>
     <option value="2">Dark mode</option>
-  </select>
+  </select> -->
     <div class="main-div">
       <div class="primary-div">
-        <h1 class="title">Taskify</h1>
-        <form action="" class="login-form">
+        <h1 class="form-title">Taskify</h1>
+        <form action="" class="login-form" id="loginForm">
           <div class="login-form-row">
             <input
               type="email"
@@ -44,9 +44,11 @@
       </div>
       <div class="secondary-Div">
         <p style="vertical-align: middle">
-          Dont have an account? <a href="">Sign up</a>
+          Dont have an account? <a href="register.html">Sign up</a>
         </p>
       </div>
     </div>
   </body>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="../Scripts/login.js"></script>
 </html>
