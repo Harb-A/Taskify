@@ -22,9 +22,11 @@ window.onload = () => {
     try {
       const res = await axios.post("http://localhost:8000/api/login", data);
       if (res.data.status == "success") {
-        console.log(res.data.authorisation.token);
+        const authToken = res.data.authorisation.token;
+        localStorage.setItem("token", authToken);
         alert("Logged in  successfuly!");
         form.reset();
+        location.replace("http://127.0.0.1:5500/Pages/home.html");
       } else {
         alert("Email password mismatch");
       }
