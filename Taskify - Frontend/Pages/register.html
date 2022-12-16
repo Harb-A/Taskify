@@ -11,22 +11,15 @@
   <body>
     <div class="main-div">
       <div class="primary-div">
-        <h1 class="title">Taskify</h1>
-        <form action="" class="register-form">
+        <h1 class="form-title">Taskify</h1>
+        <form action="" class="register-form" id="registerForm">
           <div class="register-form-row">
             <input
               type="text"
-              name="fname"
-              id="fname"
-              placeholder="First name"
-              class="register-input2"
-            />
-            <input
-              type="text"
-              name="lname"
-              id="lname"
-              placeholder="Last Name"
-              class="register-input2"
+              name="name"
+              id="name"
+              placeholder="Name"
+              class="register-input"
             />
           </div>
           <div class="register-form-row">
@@ -54,10 +47,15 @@
         </form>
       </div>
       <div class="secondary-Div">
-        <p style="vertical-align: middle">
-          Already have an account? <a href="">Log in</a>
+        <p style="vertical-align: middle; background-color: purple">
+          Already have an account?
+          <a href="login.html" style="color: white; background-color: purple"
+            >Log in</a
+          >
         </p>
       </div>
     </div>
   </body>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="../Scripts/register.js"></script>
 </html>
