@@ -36,3 +36,9 @@ Project by Abbas Harb
 
 ![image](https://user-images.githubusercontent.com/107784198/208165359-81d2e13e-323c-49d8-9fdc-7c5ea07292ff.png)
 
+## Database
+
+Laravel migrations were used check the files
+![image](https://user-images.githubusercontent.com/107784198/208165991-bdd0e4c2-147e-439e-bb48-f76c5a992764.png)
+
+
