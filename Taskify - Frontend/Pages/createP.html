@@ -5,25 +5,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Create Project</title>
+
     <link rel="stylesheet" href="../Styles/createP.css" />
   </head>
   <body>
-    <div class="center-div">
-      <div class="div-header">
+    <div class="main-div">
+      <div class="primary-div">
         <h1 class="form-title">Create Project</h1>
-      </div>
+        <form action="" class="p-form" id="pForm">
+          <div class="p-form-row">
+            <input
+              type="text"
+              name="pname"
+              id="pname"
+              placeholder="Project name"
+              class="p-input"
+            />
+          </div>
+          <div class="p-form-row">
+            <input
+              type="text"
+              name="pdesc"
+              id="pdesc"
+              placeholder="Project description"
+              class="p-input"
+            />
+          </div>
 
-      <div class="div-form">
-        <form action="#" class="create-form">
-          <div class="form-row">
-            <input type="text" placeholder="Project title" />
+          <div class="p-form-row2">
+            <button type="submit" class="p-btn">Create Project +</button>
           </div>
-          <div class="form-row2">
-            <input type="text" placeholder="Project description" />
-          </div>
-          <div class="form-row"><button>Create project</button></div>
         </form>
       </div>
     </div>
   </body>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="../Scripts/createP.js"></script>
 </html>
