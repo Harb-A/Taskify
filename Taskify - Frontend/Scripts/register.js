@@ -1,4 +1,16 @@
 window.onload = () => {
+  let themeLink = document.getElementById("theme-link");
+  let themeSelect = document.getElementById("theme");
+
+  const themeSwitch = () => {
+    if (themeSelect.value === "1") {
+      themeLink.href = "../Styles/register.css";
+    } else if (themeSelect.value === "2") {
+      themeLink.href = "../Styles/register-dark.css";
+    }
+  };
+
+  themeSelect.onchange = themeSwitch;
   const form = document.getElementById("registerForm");
 
   form.addEventListener("submit", async function (e) {
