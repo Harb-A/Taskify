@@ -31,4 +31,7 @@ Route::controller(ProjectController::class)->group(function () {
 });
 
 Route::controller(taskController::class)->group(function () {
+    Route::post('createTask', 'addTask');
+    Route::get('getTasks', 'getTasks');
+    Route::post('deleteTask', 'delete');
 });
