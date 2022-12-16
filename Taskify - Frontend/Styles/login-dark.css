@@ -31,8 +31,8 @@ body {
   justify-content: space-evenly;
   border: 1px solid rgb(242, 242, 242);
   border-radius: 5px;
-}
-.title {
+  background-color: purple;
+  border: none;
 }
 
 .secondary-Div {
@@ -44,6 +44,8 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: purple;
+  border: none;
 }
 
 .login-form {
@@ -53,10 +55,12 @@ body {
   flex-direction: column;
   justify-content: space-between;
   text-align: center;
+  background-color: purple;
 }
 
 .login-form-row {
   height: 30%;
+  background-color: purple;
 }
 
 .login-input {
@@ -64,10 +68,23 @@ body {
   width: 100%;
   border: rgb(242, 242, 242) 1px solid;
   border-radius: 10px;
+  border: none;
 }
 .login-btn {
   width: 50%;
   height: 50%;
   border: rgb(242, 242, 242) 1px solid;
   border-radius: 10px;
+  border: none;
+}
+
+.form-title {
+  background-color: purple;
+}
+
+p {
+  background-color: purple;
+}
+a {
+  background-color: purple;
 }
